@@ -22,7 +22,7 @@ void ofApp::loadMovie(string path) {
 }
 
 void ofApp::selectMovie() {
-    ofFileDialogResult file = ofSystemLoadDialog("Select a movie to play", false, "/Users/nw/domePlayer");
+    ofFileDialogResult file = ofSystemLoadDialog("Select a movie to play", false);
     if (file.bSuccess) {
         loadMovie(file.getPath());
     } else {
@@ -34,7 +34,7 @@ void ofApp::selectMovie() {
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofSetFrameRate(60);
-    ofSetWindowTitle("domePlayer");
+    ofSetWindowTitle("DomePlayer");
     ofSetWindowShape(winWidth, winHeight);
     ofBackground(0,0,0);
     ofSetVerticalSync(true);
