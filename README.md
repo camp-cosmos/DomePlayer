@@ -12,4 +12,5 @@ This project was written/built against [openFrameworks 0.8.1](http://openframewo
 
 For **XCode**, [setup openFrameworks](http://openframeworks.cc/setup/xcode/). Drop the DomePlayer project into apps/myApps (or any other workspace in the apps folder) and follow the usual instructions for building & running an oF project.
 
+[Other IDEs](http://openframeworks.cc/download/) will presumably work as well, but they haven't been tested yet.
 
